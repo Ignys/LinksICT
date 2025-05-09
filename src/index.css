@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+    background-image: url("/background.jpg"), linear-gradient(to bottom, #cceffb, #06a4c0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.font-cal {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-mont {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
