@@ -1,7 +1,7 @@
 export function LinkStructure({ children, link }: { children: any; link: string }) {
     return (
         <a href={link} className="w-full">
-            <div className="shadow-2xl rounded-xl bg-neutral-800/40 backdrop-blur-3xl p-0.5 flex hover:scale-105 transition-all duration-150 ease-in-out items-center">{children}</div>
+            <div className="shadow-2xl rounded-xl backdrop-blur-3xl p-0.5 flex hover:scale-105 transition-all duration-150 ease-in-out items-center">{children}</div>
         </a>
     );
 }
