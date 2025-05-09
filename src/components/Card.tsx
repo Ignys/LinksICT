@@ -4,7 +4,7 @@ function SocialMedia({ social, children }: { social: string; children?: any }) {
     return (
         <div className="bg-neutl flex flex-col gap-1 items-center rounded-2xl w-full p-1">
             <header className="flex items-center gap-3 mt-1 w-full px-0.5">
-                <img className="w-10 rounded-xl border-2 border-white " src={`/social/${social}.png`} alt="" />
+                <img className="w-10 rounded-xl border-2 border-white " src={`/social-resize/${social}.png`} alt="" />
                 <h1 className="md:text-lg font-semibold uppercase text-white">{social}</h1>
                 <div className="w-full bg-white h-1 rounded"></div>
             </header>
